@@ -9,6 +9,15 @@ body {
   padding: 0;
 }
 
+h1, h2 {
+  margin: 0
+}
+
+p {
+  font-size: 1.25em;
+  line-height: 140%;
+}
+
 /* Add styles here! */
 .max-width-wrapper {
   max-width: 650px;
@@ -17,6 +26,7 @@ body {
 
 header {
   border-bottom: 8px solid hsl(0deg, 0%, 40%);
+  padding-top: 48px;
 }
 
 header p {
@@ -46,6 +56,10 @@ main {
   padding: 24px;
   padding-top: 8px;
   border-bottom: 8px solid hsl(0deg, 0%, 40%);
+}
+
+.card p:last-child {
+  margin-bottom: 0;
 }
 
 .indented-heading {
